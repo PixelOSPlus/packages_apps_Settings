@@ -348,4 +348,7 @@
     <string name="bluetooth_timeout_summary_2hours">2 小时</string>
     <string name="bluetooth_timeout_summary_4hours">4 小时</string>
     <string name="bluetooth_timeout_summary_8hours">8 小时</string>
+    <!-- PixelOS Plus version -->
+    <string name="custom_version">PixelOS-Plus 版本</string>
+    <string name="custom_version_default">未知</string>
 </resources>
