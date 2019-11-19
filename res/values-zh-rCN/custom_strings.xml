@@ -291,4 +291,7 @@
     <string name="package_details_group_title">软件包详细信息</string>
     <string name="package_name">软件包名</string>
     <string name="package_version">软件包版本</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">充电时始终开启</string>
+    <string name="doze_on_charge_summary">电时显示环境显示</string>
 </resources>
