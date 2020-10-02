@@ -332,4 +332,20 @@
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G 图标</string>
     <string name="show_fourg_icon_summary">在信号图标上显示 4G 而非 LTE</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">蓝牙超时</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">如果没有设备连接，蓝牙将在<xliff:g id="timeout_description">%1$s</xliff:g>后关闭</string>
+    <string name="bluetooth_timeout_summary_never">从不</string>
+    <string name="bluetooth_timeout_summary_15secs">15 秒</string>
+    <string name="bluetooth_timeout_summary_30secs">30 秒</string>
+    <string name="bluetooth_timeout_summary_1min">1 分钟</string>
+    <string name="bluetooth_timeout_summary_2mins">2 分钟</string>
+    <string name="bluetooth_timeout_summary_5mins">5 分钟</string>
+    <string name="bluetooth_timeout_summary_10mins">10 分钟</string>
+    <string name="bluetooth_timeout_summary_30mins">30 分钟</string>
+    <string name="bluetooth_timeout_summary_1hour">1 小时</string>
+    <string name="bluetooth_timeout_summary_2hours">2 小时</string>
+    <string name="bluetooth_timeout_summary_4hours">4 小时</string>
+    <string name="bluetooth_timeout_summary_8hours">8 小时</string>
 </resources>
