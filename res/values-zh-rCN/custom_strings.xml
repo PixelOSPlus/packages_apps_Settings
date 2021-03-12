@@ -303,4 +303,7 @@
     <string name="disabled">关闭</string>
     <string name="always_on_display_schedule_mixed_sunset">从日落开启直到某个时间</string>
     <string name="always_on_display_schedule_mixed_sunrise">从某一时间开启直到日出</string>
+    <!-- Sensor block per-package -->
+    <string name="sensor_block_title">阻止个别应用使用传感器</string>
+    <string name="sensor_block_summary">阻止某些应用访问某些传感器以节省电量</string>
 </resources>
