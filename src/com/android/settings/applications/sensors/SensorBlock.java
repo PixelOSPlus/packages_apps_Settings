@@ -50,8 +50,9 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settingslib.widget.FooterPreference;
 
-import org.derpfest.support.preferences.PackageListAdapter;
-import org.derpfest.support.preferences.PackageListAdapter.PackageItem;
+import com.android.settings.custom.preference.AppListPreference;
+import com.android.settings.custom.preference.PackageListAdapter;
+import com.android.settings.custom.preference.PackageListAdapter.PackageItem;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -254,13 +255,12 @@ public class SensorBlock extends SettingsPreferenceFragment
         PackageInfo info = mPackageManager.getPackageInfo(pkg.name,
                 PackageManager.GET_META_DATA);
         Preference pref =
-                new Preference(getActivity());
+                new AppListPreference(getActivity());
 
         pref.setKey(pkg.name);
         pref.setTitle(info.applicationInfo.loadLabel(mPackageManager));
         pref.setIcon(info.applicationInfo.loadIcon(mPackageManager));
         pref.setPersistent(false);
-        pref.setLayoutResource(R.layout.custom_app_filter_list_view);
         pref.setOnPreferenceClickListener(this);
         return pref;
     }
