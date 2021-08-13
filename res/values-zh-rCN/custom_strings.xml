@@ -411,4 +411,8 @@
     <string name="volume_slider_haptic_feedback_title">音量滑块变化时振动</string>
     <!-- QS Tiles haptic -->
     <string name="qs_tiles_haptic_feedback_title">触摸快速面板磁贴时振动</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">药丸长度</string>
+    <string name="short_label">短</string>
+    <string name="long_label">长</string>
 </resources>
