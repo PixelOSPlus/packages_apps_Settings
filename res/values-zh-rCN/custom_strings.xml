@@ -324,4 +324,6 @@
     <!-- Quick Settings brightness icon -->
     <string name="qs_show_auto_brightness_title">自动亮度按钮</string>
     <string name="qs_show_auto_brightness_summary">在亮度滑块旁显示自动亮度按钮</string>
+    <!-- PixelOS Plus Maintainer -->
+    <string name="PixelOS_Plus_maintainer">设备维护者</string>
 </resources>
