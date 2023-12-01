@@ -26,6 +26,13 @@
             android:fragment="com.android.settings.custom.networktraffic.NetworkTrafficSettings"
             android:defaultValue="false" />
 
+        <!-- WiFi standard -->
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="wifi_standard_icon"
+            android:title="@string/wifi_standard_icon_title"
+            android:summary="@string/wifi_standard_icon_summary"
+            android:defaultValue="false"/>
+
         <!-- Disabled data icon -->
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="data_disabled_icon"
