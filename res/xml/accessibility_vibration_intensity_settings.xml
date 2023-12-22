@@ -98,6 +98,12 @@
             android:key="vibrate_on_disconnect"
             android:title="@string/incall_vibrate_disconnect_title"
             android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <!-- Misc vibration options -->
+    <PreferenceCategory
+        android:key="misc_vibration_category"
+        android:title="@string/misc_vibration_category_title" >
 
     </PreferenceCategory>
 
