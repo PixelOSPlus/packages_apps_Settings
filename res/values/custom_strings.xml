@@ -478,4 +478,8 @@
     <string name="display_customizations_clock">StatusBar Clock</string>
     <string name="display_customizations_icon">StatusBar Icon</string>
     <string name="display_customizations_other">Other</string>
+
+    <!-- Misc Haptics -->
+    <string name="misc_vibration_category_title">Misc Haptics</string>
+
 </resources>
