@@ -326,4 +326,7 @@
     <string name="qs_show_auto_brightness_summary">在亮度滑块旁显示自动亮度按钮</string>
     <!-- PixelOS Plus Maintainer -->
     <string name="PixelOS_Plus_maintainer">设备维护者</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">数据禁用指示器</string>
+    <string name="data_disabled_icon_summary">当流量不可用时，显示图标旁边的 “×“ 图标</string>
 </resources>
