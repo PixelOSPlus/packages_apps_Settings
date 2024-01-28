@@ -294,4 +294,13 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">充电时始终开启</string>
     <string name="doze_on_charge_summary">电时显示环境显示</string>
+    <!-- AOD Schedule -->
+    <string name="always_on_display_schedule_title">显示时间</string>
+    <string name="always_on_display_schedule_summary">设置始终显示的时间</string>
+    <string name="always_on_display_schedule_sunset">日落</string>
+    <string name="always_on_display_schedule_sunrise">日出</string>
+    <string name="default_string">默认</string>
+    <string name="disabled">关闭</string>
+    <string name="always_on_display_schedule_mixed_sunset">从日落开启直到某个时间</string>
+    <string name="always_on_display_schedule_mixed_sunrise">从某一时间开启直到日出</string>
 </resources>
