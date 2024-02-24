@@ -36,8 +36,8 @@
     <string name="app_notification_sound_timeout_value_15_minutes">10 分钟</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 分钟</string>
     <!-- Status bar Icon Manager -->
-    <string name="icon_manager_title">状态栏图标管理</string>
-    <string name="icon_manager_summary">管理状态栏图标的显示</string>
+    <string name="icon_manager_title">状态栏图标</string>
+    <string name="icon_manager_summary">控制状态栏图标的可见性</string>
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">启用高级重启选项</string>
     <string name="global_actions_advanced_reboot_summary">在电源菜单中显示重启到 Recovery 和 Bootloader 的选项</string>
@@ -75,7 +75,7 @@
     <string name="fingerprint_enroll_touch_dialog_message_side" product="default">触摸位于手机侧面的指纹传感器</string>
     <!-- Notch: Full screen apps -->
     <string name="display_cutout_force_fullscreen_title">应用全屏</string>
-    <string name="display_cutout_force_fullscreen_summary">强制应用忽略刘海区域</string>
+    <string name="display_cutout_force_fullscreen_summary">强制应用忽略刘海屏区域</string>
     <string name="search">搜索</string>
     <string name="search_apps">搜索应用</string>
     <string name="application_icon">应用图标</string>
@@ -95,7 +95,7 @@
     <string name="display_rotation_270_title">270°</string>
     <!-- Double tap to sleep on status bar or lockscreen -->
     <string name="status_bar_double_tap_to_sleep_title">双击休眠</string>
-    <string name="status_bar_double_tap_to_sleep_summary">双击状态栏或锁屏界面以息屏</string>
+    <string name="status_bar_double_tap_to_sleep_summary">在状态栏或锁屏界面点按两次即可关闭屏幕</string>
     <!-- Ignore window secure -->
     <string name="ignore_window_secure_title">忽略某些应用禁止用户截取屏幕的标志</string>
     <string name="ignore_window_secure_summary">移出所有应用程序的截图和录屏限制。这在某些情况下可能很方便，但可能导致隐私泄露。</string>
@@ -191,7 +191,7 @@
     <!-- Doze on double tap -->
     <string name="double_tap_title">双击</string>
     <string name="doze_double_tap_title">双击即可唤醒手机</string>
-    <string name="doze_double_tap_summary">双击查看息屏显示</string>
+    <string name="doze_double_tap_summary">双击查看息屏显示通知</string>
     <!-- QSTile requires unlocking before being accessible -->
     <string name="qstile_requires_unlocking_title">安全快速设置图块</string>
     <string name="qstile_requires_unlocking_summary">需要解锁才能使用敏感瓷贴</string>
@@ -234,20 +234,20 @@
     <string name="unlock_quick_unlock_control_summary">当输入正确的 PIN 码或密码后自动解锁</string>
     <!-- Annoying Notifications -->
     <string name="notification_sound_vib_screen_on_title">恼人通知</string>
-    <string name="notification_sound_vib_screen_on_summary">当屏幕开启时播放声音和振动通知</string>
+    <string name="notification_sound_vib_screen_on_summary">屏幕开启时，对通知进行声音和振动提醒</string>
     <!-- Label for a numbered SIM card.  [CHAR LIMIT=40] -->
     <string name="sim_card_number_title">SIM 卡 <xliff:g id="card_number">%1$d</xliff:g></string>
     <!-- Heads up -->
-    <string name="heads_up_title">悬浮通知</string>
-    <string name="heads_up_summary">在屏幕顶部以横幅形式显示通知</string>
+    <string name="heads_up_title">浮动通知</string>
+    <string name="heads_up_summary">在屏幕顶部以横幅方式显示通知内容</string>
     <string name="heads_up_off">浮动通知已在全局禁用</string>
     <!-- Less boring heads up -->
     <string name="less_boring_heads_up_title">浮动通知</string>
-    <string name="less_boring_heads_up_summary">仅在通话、消息、提醒、提醒和优先对话中显示浮动通知</string>
+    <string name="less_boring_heads_up_summary">仅在通话、消息、闹钟、提醒和优先对话中显示浮动通知</string>
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">屏幕截图提示音</string>
     <!-- Advanced sound settings -->
-    <string name="sound_settings_advanced_title">其它声音</string>
+    <string name="sound_settings_advanced_title">更多提示音</string>
     <!-- Ambient wake toggles -->
     <string name="doze_gesture_ambient_title">显示环境模式</string>
     <string name="doze_gesture_ambient_summary">显示环境显示而不是唤醒屏幕</string>
@@ -257,14 +257,14 @@
     <string name="refresh_rate_title">屏幕刷新率</string>
     <string name="refresh_rate_summary_vrr_off">%d Hz</string>
     <string name="refresh_rate_summary_vrr_on">%d Hz（自适应）</string>
-    <string name="refresh_rate_vrr_title">自适应屏幕刷新率</string>
+    <string name="refresh_rate_vrr_title">自适应刷新率</string>
     <string name="refresh_rate_vrr_summary">当屏幕空闲时自动降低刷新率以节省电量，可能会导致某些设备的屏幕闪烁或色偏。</string>
     <string name="refresh_rate_footer">更高的刷新率使显示的内容变化时变得更加流畅，但会增加电量消耗。</string>
-    <string name="keywords_refresh_rate">屏幕刷新率、流畅度、60 Hz、90 Hz、120 Hz、144 Hz、165 Hz</string>
+    <string name="keywords_refresh_rate">刷新, 速度, 平滑, 峰值, 60hz, 90hz, 120hz, 144hz, 165hz</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">来电振动选项</string>
+    <string name="incall_vibration_category">通话振动选项</string>
     <string name="incall_vibrate_connect_title">接通时振动</string>
-    <string name="incall_vibrate_call_wait_title">呼叫等待时震动</string>
+    <string name="incall_vibrate_call_wait_title">呼叫等待时振动</string>
     <string name="incall_vibrate_disconnect_title">挂断时振动</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
