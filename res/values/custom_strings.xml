@@ -469,4 +469,13 @@
     <string name="status_bar_clock_show_seconds_title">Clock show seconds</string>
     <string name="status_bar_clock_show_seconds_desc">Show hours, minutes, and seconds</string>
 
+    <!-- Customization category -->
+    <string name="display_customizations">Customizations</string>
+    <string name="statusbar_customization_title">StatusBar Customizations</string>
+    <string name="statusbar_customization_summary">Adjust statusbar icons</string>
+    <string name="quicksettings_customization_title">QuickSettings Customizations</string>
+    <string name="quicksettings_customization_summary">Adjust QuickSettings</string>
+    <string name="display_customizations_clock">StatusBar Clock</string>
+    <string name="display_customizations_icon">StatusBar Icon</string>
+    <string name="display_customizations_other">Other</string>
 </resources>
