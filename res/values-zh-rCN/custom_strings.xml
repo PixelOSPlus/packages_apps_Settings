@@ -351,4 +351,67 @@
     <!-- PixelOS Plus version -->
     <string name="custom_version">PixelOS-Plus 版本</string>
     <string name="custom_version_default">未知</string>
+    <!-- Battery Info: Technology -->
+    <string name="battery_technology">技术</string>
+    <string name="battery_technology_not_available">不可用</string>
+    <!-- Battery Info: Health -->
+    <string name="battery_health">健康状态</string>
+    <string name="battery_health_good">很好</string>
+    <string name="battery_health_overheat">过热</string>
+    <string name="battery_health_dead">不行了...</string>
+    <string name="battery_health_over_voltage">过压</string>
+    <string name="battery_health_unspecified_failure">未知错误</string>
+    <string name="battery_health_cold">好冷</string>
+    <string name="battery_health_unknown">未知</string>
+    <!-- Battery Info: Temperature -->
+    <string name="battery_temperature">温度</string>
+    <string name="battery_temperature_not_available">不可用</string>
+    <!-- Battery Info: Voltage -->
+    <string name="battery_voltage">电压</string>
+    <string name="battery_voltage_not_available">不可用</string>
+    <!-- Battery Info: Charge Counter -->
+    <string name="battery_charge_counter_summary">%1$d 毫安时</string>
+    <!-- Battery Info: Design Capacity -->
+    <string name="battery_design_capacity">设计容量</string>
+    <string name="battery_design_capacity_summary">%1$d 毫安时</string>
+    <string name="battery_design_capacity_not_available">不可用</string>
+    <!-- Battery Info: Maximum Capacity -->
+    <string name="battery_maximum_capacity">剩余容量</string>
+    <string name="battery_maximum_capacity_summary">%1$d 毫安时 (%2$d%%)</string>
+    <string name="battery_maximum_capacity_not_available">不可用</string>
+    <!-- Clock position -->
+    <string name="status_bar_clock_position_center">居中</string>
+    <string name="status_bar_clock_position_left">左侧</string>
+    <string name="status_bar_clock_position_right">右侧</string>
+    <string name="status_bar_clock_position_title">时钟样式</string>
+    <!-- Clock AM/PM -->
+    <string name="status_bar_am_pm_hidden">隐藏</string>
+    <string name="status_bar_am_pm_normal">正常</string>
+    <string name="status_bar_am_pm_small">较小</string>
+    <string name="status_bar_am_pm_title">上午/下午样式</string>
+    <string name="status_bar_am_pm_unavailable">24-hour clock is enabled</string>
+    <string name="status_bar_clock_title">时钟自定义</string>
+    <string name="status_bar_clock_summary">自定义时钟样式</string>
+    <string name="status_bar_clock_show_seconds_title">时钟显秒</string>
+    <string name="status_bar_clock_show_seconds_desc">显示小时、分钟、秒</string>
+    <!-- Customization category -->
+    <string name="display_customizations">自定义</string>
+    <string name="statusbar_customization_title">状态栏自定义</string>
+    <string name="statusbar_customization_summary">自定义状态栏图标</string>
+    <string name="quicksettings_customization_title">快速设置自定义</string>
+    <string name="quicksettings_customization_summary">自定义快速设置面板</string>
+    <string name="display_customizations_clock">状态栏时钟</string>
+    <string name="display_customizations_icon">状态栏图标</string>
+    <string name="display_customizations_other">其它</string>
+    <!-- Misc Haptics -->
+    <string name="misc_vibration_category_title">杂项振动</string>
+    <!-- QS Brightness slider haptic feedback -->
+    <string name="qs_brightness_slider_haptic_feedback_title">亮度滑块变化时振动</string>
+    <!-- Volume slider haptic feedback -->
+    <string name="volume_slider_haptic_feedback_title">音量滑块变化时振动</string>
+    <!-- QS Tiles haptic -->
+    <string name="qs_tiles_haptic_feedback_title">触摸快速面板磁贴时振动</string>
+    <!-- WiFi Standard icon -->
+    <string name="wifi_standard_icon_title">WiFi 频段</string>
+    <string name="wifi_standard_icon_summary">在 WiFi 图标旁边显示 WiFi 频段</string>
 </resources>
