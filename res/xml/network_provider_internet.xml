@@ -125,31 +125,6 @@
         android:negativeButtonText="@android:string/cancel" />
 
     <Preference
-        android:key="network_traffic_state"
-        android:icon="@drawable/ic_settings_network_traffic"
-        android:title="@string/network_traffic_state_title"
-        android:summary="@string/network_traffic_state_summary"
-        android:order="25"
-        android:fragment="com.android.settings.custom.networktraffic.NetworkTrafficSettings"
-        android:defaultValue="false" />
-
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
-        android:key="data_disabled_icon"
-        android:icon="@drawable/ic_settings_disable_data"
-        android:title="@string/data_disabled_icon_title"
-        android:summary="@string/data_disabled_icon_summary"
-        android:order="26"
-        android:defaultValue="true"/>
-
-    <com.android.settings.custom.preference.SystemSettingSwitchPreference
-        android:key="show_fourg_icon"
-        android:icon="@drawable/ic_settings_lte_to_4g"
-        android:title="@string/show_fourg_icon_title"
-        android:summary="@string/show_fourg_icon_summary"
-        android:order="27"
-        android:defaultValue="false"/>
-
-    <Preference
         android:fragment="com.android.settings.network.AdaptiveConnectivitySettings"
         android:key="adaptive_connectivity"
         android:title="@string/adaptive_connectivity_title"
