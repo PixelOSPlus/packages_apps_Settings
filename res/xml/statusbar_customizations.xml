@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:key="statusbar_customizations"
+    android:title="@string/statusbar_customization_title">
+
+    <PreferenceCategory
+        android:title="@string/display_customizations_clock">
+        <!-- Statusbar clock -->
+        <Preference
+            android:key="status_bar_clock"
+            android:fragment="com.android.settings.custom.fragment.statusbar.ClockDateSettings"
+            android:title="@string/status_bar_clock_title"
+            android:summary="@string/status_bar_clock_summary" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/display_customizations_icon">
+        <!-- Network traffic -->
+        <Preference
+            android:key="network_traffic_state"
+            android:title="@string/network_traffic_state_title"
+            android:summary="@string/network_traffic_state_summary"
+            android:order="25"
+            android:fragment="com.android.settings.custom.networktraffic.NetworkTrafficSettings"
+            android:defaultValue="false" />
+
+        <!-- Disabled data icon -->
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="data_disabled_icon"
+            android:title="@string/data_disabled_icon_title"
+            android:summary="@string/data_disabled_icon_summary"
+            android:order="26"
+            android:defaultValue="true"/>
+
+        <!-- 4G icon -->
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="show_fourg_icon"
+            android:title="@string/show_fourg_icon_title"
+            android:summary="@string/show_fourg_icon_summary"
+            android:order="27"
+            android:defaultValue="false"/>
+
+        <!-- Statusbar icon Manager -->
+        <Preference
+            android:key="icon_manager"
+            android:title="@string/icon_manager_title"
+            android:summary="@string/icon_manager_summary">
+            <intent android:action="com.android.settings.action.STATUS_BAR_TUNER" />
+        </Preference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/display_customizations_other">
+        <!-- Statusbar lyric -->
+        <Preference
+            android:fragment="com.android.settings.custom.fragment.statusbar.StatusbarLyricSettings"
+            android:key="status_bar_lyric_settings"
+            android:title="@string/status_bar_lyric_title"
+            android:summary="@string/status_bar_lyric_summary" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

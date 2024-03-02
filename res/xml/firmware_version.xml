@@ -30,14 +30,6 @@
         settings:searchable="false"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionDetailPreferenceController"/>
 
-    <!-- PixelOS-Plus version -->
-    <Preference
-        android:key="custom_version"
-        android:title="@string/custom_version"
-        android:summary="@string/summary_placeholder"
-        settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.CustomVersionPreferenceController"/>
-
     <!-- PixelOS-Plus Maintainer  -->
     <Preference
         android:key="PixelOS_Plus_maintainer"
